@@ -6,10 +6,8 @@
 
 let elementen = [1,2,3,4,5,6,7,8,9,10]
 
-let evengetalen = 0
 for (element of elementen){
-    if(evengetalen%=0){
-        evengetalen = element%=0
-        console.log(evengetalen)
+    if(element%2===0){
+        console.log(element)
     }
 }

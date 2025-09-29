@@ -10,6 +10,7 @@ for (){
     console.log(som)
 }
 */
+
 let teller = 0
 let elementen = [5,6,8,9,7]
 let som =0

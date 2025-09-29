@@ -1,15 +1,19 @@
-// Oefening 3: Filter even getallen uit een array
-// Schrijf een programma dat een array doorloopt en alle even getallen afdrukt.
+// Oefening 4: Omgekeerde array afdrukken
+// Schrijf een programma dat de elementen van een array in omgekeerde volgorde afdrukt.
 
-
-
+// let elementen = [1,2,3,4,5,6,7,8,9,10]
+//
+// let omgekeerd = []
+// for (element of elementen){
+//     omgekeerd = elementen.toReversed()
+//
+// }
+// console.log(omgekeerd)
 
 let elementen = [1,2,3,4,5,6,7,8,9,10]
 
-let evengetalen = 0
-for (element of elementen){
-    if(evengetalen%=0){
-        evengetalen = element%=0
-        console.log(evengetalen)
-    }
+let omgekeerd = elementen.toReversed()
+
+for (let element of omgekeerd){
+    console.log(element)
 }

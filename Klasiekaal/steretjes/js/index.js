@@ -1,7 +1,4 @@
-// som van de eerste 10 getalen
-//10 x dezelfde vraag stellen
-// daarna de ingave van 1 vraag opvangen
-//iedere ingave optellen om de som te bereiken
+// dit programma print het aantal sterren uit
 
 var aantal = parseInt(window.prompt("Hoeveel sterretjes wil je tonen?"))
 var ster="*"
